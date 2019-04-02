@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="@string/remote_connection">
+        <EditTextPreference
+                android:key="@string/ip_add_key"
+                android:title="@string/ip_add"
+                android:defaultValue="192.168.2.51"
+        />
+        <EditTextPreference
+                android:key="@string/bt_add_key"
+                android:title="@string/bt_add"
+                android:defaultValue="20:15:11:23:15:72"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/image_for_send">
+        <EditTextPreference
+                android:key="@string/send_delay"
+                android:title="@string/delay"
+                android:defaultValue="700"
+        />
+        <EditTextPreference
+                android:key="@string/im_h"
+                android:title="@string/height"
+                android:defaultValue="240"
+        />
+        <EditTextPreference
+                android:key="@string/im_w"
+                android:title="@string/width"
+                android:defaultValue="320"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

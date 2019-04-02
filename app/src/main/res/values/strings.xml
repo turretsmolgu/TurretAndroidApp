@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TurretBTApp</string>
+    <string name="connected_devices">Подключенные устройства</string>
+    <string name="close">Закрыть</string>
+    <string name="mode_choice">Выберете режим:</string>
+    <string name="watcher">Наблюдатель</string>
+    <string name="camera">Камера</string>
+    <string name="hand">Ручное управление</string>
+    <string name="ip_add">IP-адрес сервера</string>
+    <string name="ip_add_key">SERVER_ADDRESS</string>
+    <string name="remote_connection">Подключение</string>
+    <string name="bt_add">BlueTooth адрес</string>
+    <string name="bt_add_key">BLUETOOTH_ADDRESS</string>
+    <string name="image_for_send">Отправка изображения</string>
+    <string name="im_h">IMAGE_H</string>
+    <string name="height">Высота</string>
+    <string name="im_w">IMAGE_W</string>
+    <string name="width">Ширина</string>
+    <string name="send_delay">SENDER_DELAY</string>
+    <string name="delay">Задержка отправки кадра</string>
+</resources>
